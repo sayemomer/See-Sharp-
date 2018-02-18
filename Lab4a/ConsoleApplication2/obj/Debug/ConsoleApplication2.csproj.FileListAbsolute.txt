@@ -1,0 +1,12 @@
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\student\Desktop\Student 1\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\student\Downloads\See-Sharp--master\See-Sharp--master\Properties\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
