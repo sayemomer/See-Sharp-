@@ -1,0 +1,6 @@
+C:\Users\student\Downloads\Lab4b\Lab4b\bin\Debug\Lab4b.exe.config
+C:\Users\student\Downloads\Lab4b\Lab4b\bin\Debug\Lab4b.exe
+C:\Users\student\Downloads\Lab4b\Lab4b\bin\Debug\Lab4b.pdb
+C:\Users\student\Downloads\Lab4b\Lab4b\obj\Debug\Lab4b.csprojResolveAssemblyReference.cache
+C:\Users\student\Downloads\Lab4b\Lab4b\obj\Debug\Lab4b.exe
+C:\Users\student\Downloads\Lab4b\Lab4b\obj\Debug\Lab4b.pdb
