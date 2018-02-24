@@ -10,8 +10,7 @@ namespace classTypeArray
     {
        private string bankName ;
        private string address ;
-       private Account[] account;
-       public int count = 0;
+       private Account[] account=new Account[5];
 
        public Bank()
        {
@@ -20,12 +19,11 @@ namespace classTypeArray
        }
        public Bank( string bankName , string address )
        {
-           count++;
+           
            Console.WriteLine("Peramiterised Constructor \n -------------------------------");
            this.bankName = bankName;
            this.address = address;
-           account = new Account[5];
- 
+
        }
 
        public string BankName
@@ -45,13 +43,16 @@ namespace classTypeArray
 
        public void addAccount(Account a)
        {
-           
-           for (int i = 1; i <= count; i++)
-           {
-               account[i] = a;
-           }
 
-           
+           for (int i = 0; i < account.Length; i++)
+           {
+               if (account[i] == null)
+               {
+                   account[i] = a;
+                   break;  
+               }
+             
+           }
 
        }
 
@@ -60,15 +61,7 @@ namespace classTypeArray
        public void deleteAccount(Account a)
        {
 
-           for (int i = 1; i <= count; i++)
-           {
-               if (account[i] == a)
-               {
-                   account[i] = null;
-
-               }
-
-           }
+          
 
        }
 
@@ -77,12 +70,16 @@ namespace classTypeArray
            Console.WriteLine("Bank name :{0}\nAddress :{1}\n", bankName, address);
 
            Console.WriteLine("---------- Bank Account holders ----------");
+          
 
-           for (int i = 1; i<=count; i++)
+           for (int i = 0; i< account.Length; i++)
            {
-               Console.WriteLine(count);
-               Console.WriteLine("Account Holder :{0}\nAccountId :{1}\nBalace:{2}\n", account[i].accountHolderName, account[i].accountId, account[i].balance);
-           }
+               if (account[i] != null)
+               {
+
+                   Console.WriteLine("Account Holder :{0}\nAccountId :{1}\nBalace:{2}\n", account[i].accountHolderName, account[i].accountId, account[i].balance);
+               }
+          }
            
        }
 

@@ -8,7 +8,10 @@ namespace classTypeArray
 {
     class Program
     {
+        
         static void Main(string[] args){
+
+            
 
             Account account1 = new Account("Omer Sayem", "15b6", 1000);
                 account1.showDetails();
