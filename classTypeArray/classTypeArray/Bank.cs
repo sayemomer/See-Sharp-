@@ -44,7 +44,7 @@ namespace classTypeArray
        public void addAccount(Account a)
        {
 
-           for (int i = 0; i < account.Length; i++)
+           for (int i = 1; i < account.Length; i++)
            {
                if (account[i] == null)
                {
@@ -60,9 +60,13 @@ namespace classTypeArray
 
        public void deleteAccount(Account a)
        {
-
-          
-
+           for (int i = 1; i < account.Length; i++)
+           {
+               if (account[i] == a)
+               {
+                   account[i] = null;
+               }
+           }
        }
 
        public void showDetails()
@@ -72,7 +76,7 @@ namespace classTypeArray
            Console.WriteLine("---------- Bank Account holders ----------");
           
 
-           for (int i = 0; i< account.Length; i++)
+           for (int i = 1; i< account.Length; i++)
            {
                if (account[i] != null)
                {

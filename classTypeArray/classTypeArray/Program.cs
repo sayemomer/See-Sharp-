@@ -31,6 +31,10 @@ namespace classTypeArray
                 bank.addAccount(account2);
                 bank.showDetails();
 
+                bank.deleteAccount(account1);
+                bank.deleteAccount(account2);
+                bank.showDetails();
+
 
         }
     }
