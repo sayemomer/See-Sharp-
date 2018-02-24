@@ -1,0 +1,6 @@
+H:\classTypeArray\classTypeArray\bin\Debug\classTypeArray.exe.config
+H:\classTypeArray\classTypeArray\bin\Debug\classTypeArray.exe
+H:\classTypeArray\classTypeArray\bin\Debug\classTypeArray.pdb
+H:\classTypeArray\classTypeArray\obj\Debug\classTypeArray.exe
+H:\classTypeArray\classTypeArray\obj\Debug\classTypeArray.pdb
+H:\classTypeArray\classTypeArray\obj\Debug\classTypeArray.csprojResolveAssemblyReference.cache
