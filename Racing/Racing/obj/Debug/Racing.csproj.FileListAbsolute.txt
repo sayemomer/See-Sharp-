@@ -1,0 +1,9 @@
+H:\Racing\Racing\bin\Debug\Racing.exe.config
+H:\Racing\Racing\bin\Debug\Racing.exe
+H:\Racing\Racing\bin\Debug\Racing.pdb
+H:\Racing\Racing\obj\Debug\Racing.csprojResolveAssemblyReference.cache
+H:\Racing\Racing\obj\Debug\Racing.Form1.resources
+H:\Racing\Racing\obj\Debug\Racing.Properties.Resources.resources
+H:\Racing\Racing\obj\Debug\Racing.csproj.GenerateResource.Cache
+H:\Racing\Racing\obj\Debug\Racing.exe
+H:\Racing\Racing\obj\Debug\Racing.pdb
