@@ -7,3 +7,13 @@ H:\Racing\Racing\obj\Debug\Racing.Properties.Resources.resources
 H:\Racing\Racing\obj\Debug\Racing.csproj.GenerateResource.Cache
 H:\Racing\Racing\obj\Debug\Racing.exe
 H:\Racing\Racing\obj\Debug\Racing.pdb
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\bin\Debug\Racing.exe.config
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\bin\Debug\Racing.exe
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\bin\Debug\Racing.pdb
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.Form1.resources
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.Properties.Resources.resources
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.csproj.GenerateResource.Cache
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.csproj.CoreCompileInputs.cache
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.exe
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.pdb
+C:\Users\iamsa\Downloads\See-Sharp--master\Racing\Racing\obj\Debug\Racing.csprojResolveAssemblyReference.cache

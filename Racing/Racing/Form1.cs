@@ -20,10 +20,10 @@ namespace Racing
         {
             InitializeComponent();
 
+            comboBox1.Items.Add(0);
             comboBox1.Items.Add(1);
             comboBox1.Items.Add(2);
             comboBox1.Items.Add(3);
-            comboBox1.Items.Add(4);
 
             dogs[0] = new Greyhound();
             dogs[1] = new Greyhound();
@@ -90,31 +90,31 @@ namespace Racing
         {
 
 
-          /*  while (dogs[0].Run() == false)
-            {
-                if (dogs[0].Run() == true)
-                {
-                    break;
-                }
-                dogs[0].Run();
-            } */
-            if (!dogs[0].Run())
+          while ( !dogs[0].Run() )
             {
                 dogs[0].Run();
             }
-            else
-            {
-                guys[0].Collect(0);
-                guys[0].ClearBet();
-                guys[0].UpdateLabels();
-            }
-            
+            /* if (!dogs[0].Run())
+             {
+                 dogs[0].Run();
+             }
+             else
+             {
+                 guys[0].Collect(0);
+                 guys[0].ClearBet();
+                 guys[0].UpdateLabels();
+             }*/
 
-           /* for (int i = 0; i <= guys.Length; i++)
-            {
-                guys[i].Collect(0);
-                guys[i].UpdateLabels();
-            } */
+
+            /* for (int i = 0; i <= guys.Length; i++)
+             {
+                 guys[i].Collect(0);
+                 guys[i].UpdateLabels();
+             } */
+
+            guys[0].Collect(0);
+            guys[0].ClearBet();
+            guys[0].UpdateLabels();
 
             button1.Enabled = false;
 

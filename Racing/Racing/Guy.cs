@@ -55,7 +55,7 @@ namespace Racing
 
            int bet = this.MyBet.PayOut(Winner);
 
-           Cash = Cash + bet;
+           Cash = Cash + 2*bet;
         
         }
 

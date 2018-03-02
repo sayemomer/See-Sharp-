@@ -11,7 +11,7 @@ namespace Racing
      public class Greyhound 
     {
         public int startingPosition;
-        public int racetrackLength=50;
+        public int racetrackLength=60;
         public PictureBox MyPictureBox ;
         public int Location = 0;
         public Random Randomizer;
