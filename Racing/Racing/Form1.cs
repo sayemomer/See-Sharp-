@@ -20,6 +20,11 @@ namespace Racing
         {
             InitializeComponent();
 
+            comboBox1.Items.Add(1);
+            comboBox1.Items.Add(2);
+            comboBox1.Items.Add(3);
+            comboBox1.Items.Add(4);
+
             dogs[0] = new Greyhound();
             dogs[1] = new Greyhound();
             dogs[2] = new Greyhound();
@@ -31,12 +36,20 @@ namespace Racing
             dogs[3].MyPictureBox = pictureBox5;
 
 
+           /* dogs[0].racetrackLength = pictureBox1.Location.X;
+            dogs[1].racetrackLength = pictureBox1.Location.X;
+            dogs[2].racetrackLength = pictureBox1.Location.X;
+            dogs[3].racetrackLength = pictureBox1.Location.X; */
+
 
 
             guys[0] = new Guy();
             guys[1] = new Guy();
             guys[2] = new Guy();
 
+
+          
+            
             
 
             guys[0].MyRadioButton = radioButton3;
@@ -48,9 +61,9 @@ namespace Racing
             guys[2].MyLabel = label7;
 
 
-            guys[0].Cash = 100;
-            guys[1].Cash = 500;
-            guys[2].Cash = 800;
+            guys[0].Cash = 10;
+            guys[1].Cash = 5;
+            guys[2].Cash = 8;
 
             guys[0].Name = "Sayem";
             guys[1].Name = "Nobo";
@@ -75,12 +88,35 @@ namespace Racing
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
 
-            dogs[0].Run();
-            dogs[1].Run();
-            dogs[2].Run();
-            dogs[3].Run();
+
+          /*  while (dogs[0].Run() == false)
+            {
+                if (dogs[0].Run() == true)
+                {
+                    break;
+                }
+                dogs[0].Run();
+            } */
+            if (!dogs[0].Run())
+            {
+                dogs[0].Run();
+            }
+            else
+            {
+                guys[0].Collect(0);
+                guys[0].ClearBet();
+                guys[0].UpdateLabels();
+            }
+            
+
+           /* for (int i = 0; i <= guys.Length; i++)
+            {
+                guys[i].Collect(0);
+                guys[i].UpdateLabels();
+            } */
+
+            button1.Enabled = false;
 
         }
 
@@ -107,11 +143,18 @@ namespace Racing
            {
                if (guys[i].Name == targetGuy)
                {
-                   guys[i].PlaceBet(Convert.ToInt32(this.numericUpDown1.Value),Convert.ToInt32(this.numericUpDown2.Value));
-                   guys[i].UpdateLabels();
-                   break;
+                  
+                   if( guys[i].Cash >= Convert.ToInt32(this.numericUpDown1.Value) ){
+
+                          guys[i].PlaceBet(Convert.ToInt32(this.numericUpDown1.Value),Convert.ToInt32(this.comboBox1.Text));
+                          guys[i].UpdateLabels();
+                          
+                           break;
+                   }
+                   MessageBox.Show("Insuffecient balance");
                }
            }
+          
         }
     }
 }

@@ -30,7 +30,12 @@ namespace Racing
             // return the amount bet. Otherwise, return the negative of
             // the amount bet.
 
-            return 10;
+            if (Winner == Dog)
+            {
+                return Amount;
+            }
+
+            return -Amount;
         }
 
 

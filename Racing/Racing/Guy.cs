@@ -21,30 +21,43 @@ namespace Racing
         public void UpdateLabels()
         {
             // Set my label to my bet’s description, and the label on my
+
             MyLabel.Text = Name + " has bet " + (MyBet.Amount).ToString() + " taka on dog # " + MyBet.Dog;
             // radio button to show my cash (“Joe has 43 bucks”)
 
+           Cash = Cash - MyBet.Amount  ;
+
+           MyRadioButton.Text = Name + " has " + (Cash).ToString() + " Taka";
             
         }
 
 
-        public void ClearBet() { }
+        public void ClearBet() {
 
-
-        public bool PlaceBet(int Amount, int Dog)
-        {
-            // Place a new bet and store it in my bet field
-            MyBet = new Bet();
-            MyBet.Amount = Amount;
-            MyBet.Dog = Dog;
-
-            // Return true if the guy had enough money to bet
-
-            return true;
+            MyBet.Amount = 0;
+        
         }
 
 
-        public void Collect(int Winner) { }
+        public void PlaceBet(int Amount, int Dog)
+        {
+
+           
+                MyBet = new Bet();
+                MyBet.Amount = Amount;
+                MyBet.Dog = Dog;
+                MyBet.Bettor = this;
+
+        }
+
+
+        public void Collect(int Winner) {
+
+           int bet = this.MyBet.PayOut(Winner);
+
+           Cash = Cash + bet;
+        
+        }
 
 
 

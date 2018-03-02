@@ -11,28 +11,31 @@ namespace Racing
      public class Greyhound 
     {
         public int startingPosition;
-        public int racetrackLength;
+        public int racetrackLength=50;
         public PictureBox MyPictureBox ;
         public int Location = 0;
         public Random Randomizer;
 
-        public void Run()
+        public bool Run()
         {
             // Move forward either 1, 2, 3 or 4 spaces at random
             // Update the position of my PictureBox on the form
             // Return true if I won the race
 
-            Random Randomizer = new Random();
-            Point p = MyPictureBox.Location;
-            p.X += Randomizer.Next(-2,10);
-            MyPictureBox.Location = p;
-
             if (MyPictureBox.Location.X == racetrackLength)
             {
-                MessageBox.Show("winners get"+this.MyPictureBox);
+                MessageBox.Show("hola you wins");
+                return true;
             }
+            else
+            {
+                Random Randomizer = new Random();
+                Point p = MyPictureBox.Location;
+                p.X += Randomizer.Next(-2, 5);
+                MyPictureBox.Location = p;
 
-          //  return true;
+                return false;
+            }
         }
 
 
