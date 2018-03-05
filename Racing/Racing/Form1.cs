@@ -90,20 +90,35 @@ namespace Racing
         {
 
 
-          while ( !dogs[0].Run() )
+         /* while ( !dogs[0].Run() )
             {
                 dogs[0].Run();
-            }
-            /* if (!dogs[0].Run())
+            } */
+             if ( !dogs[0].Run() && !dogs[1].Run() && !dogs[2].Run() && !dogs[3].Run() )
              {
-                 dogs[0].Run();
-             }
+                dogs[0].Run();
+                dogs[1].Run();
+                dogs[2].Run();
+                dogs[3].Run();
+            }
              else
              {
                  guys[0].Collect(0);
                  guys[0].ClearBet();
                  guys[0].UpdateLabels();
-             }*/
+
+                guys[1].Collect(0);
+                guys[1].ClearBet();
+                guys[1].UpdateLabels();
+
+                guys[2].Collect(0);
+                guys[2].ClearBet();
+                guys[2].UpdateLabels();
+
+                guys[3].Collect(0);
+                guys[3].ClearBet();
+                guys[3].UpdateLabels();
+            }
 
 
             /* for (int i = 0; i <= guys.Length; i++)
@@ -112,9 +127,9 @@ namespace Racing
                  guys[i].UpdateLabels();
              } */
 
-            guys[0].Collect(0);
+           /* guys[0].Collect(0);
             guys[0].ClearBet();
-            guys[0].UpdateLabels();
+            guys[0].UpdateLabels();*/
 
             button1.Enabled = false;
 
