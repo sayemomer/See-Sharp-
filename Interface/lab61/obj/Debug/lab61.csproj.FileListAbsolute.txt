@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\bin\Debug\lab61.exe.config
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\obj\Debug\lab61.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\bin\Debug\lab61.exe
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\bin\Debug\lab61.pdb
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\obj\Debug\lab61.exe
+C:\Users\student\Desktop\Tushar\Task-5\lab61\lab61\obj\Debug\lab61.pdb
