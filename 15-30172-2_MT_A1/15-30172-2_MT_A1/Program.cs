@@ -46,11 +46,12 @@ namespace _15_30172_2_MT_A1
                 firtstFlight.Depurture = departure;
                 firtstFlight.Arrival = Arrival;
 
-                firtstFlight.showInfo();
-                
 
-
-
+                Console.WriteLine("Flight ID :{0}\nFlight Name :{1}\nFlight Capacity :{2}\n", firtstFlight.Id, firtstFlight.Name, firtstFlight.Capacity);
+                Console.WriteLine("Pilot Name :{0}\nPilot ID :{1}\nPilot Designation :{2}\n", employee1.ID, employee1.Name, employee1.Designation);
+                Console.WriteLine("Airport From Name :{0}\nAirport From ID :{1}\nAirport From Longitude :{2}\nAirport From Latitude :{3}\n", fromAirport.Id, fromAirport.Name, fromAirport.Location.Longitude, fromAirport.Location.Latitude);
+                Console.WriteLine("Airport To Name : {0}\nAirport to ID : {1}\nAirport to Longitude : {2}\nAirport From Latitude: {3}", toAirport.Name, toAirport.Id, toAirport.Location.Latitude, toAirport.Location.Longitude);
+                Console.WriteLine("Schedule Departure : " +departure.Hour+":"+departure.Minute+"\nSchedule Arrival : " + Arrival.Hour +":"+ Arrival.Minute);
 
         }
     }
